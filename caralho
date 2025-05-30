@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio de Guilherme</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar do Guilherme" class="rounded-circle" width="150" height="150">
+        <p class="lead">Eu sou Guilherme, 16 anos</p>
+        <h1>Eu sou apaixonado por Tecnologia!</h1>
+        <p>Sou estudante de Desenvolvimento de Sistemas, cursando o 2º ano do Ensino Médio. Tenho habilidades em Tecnologia da Informação e estou sempre aprendendo novas linguagens e ferramentas. Atualmente, estou também fazendo um curso de inglês para me aprimorar ainda mais.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Desenvolvimento de Sistemas</p>
+            <p class="badge bg-secondary">Inglês (em andamento)</p>
+        </div>
+    </header>
+    <main class="container">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="Imagem do projeto">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto Exemplo</h5>
+                        <p class="card-text">Este é um exemplo de projeto que desenvolvi usando HTML, CSS e JavaScript.</p>
+                        <a href="#" class="btn btn-primary">Veja o projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
